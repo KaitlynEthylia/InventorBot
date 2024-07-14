@@ -1,0 +1,5 @@
+# someday rustfmt might have more than half a dozen stable options :')
+hard_tabs = true
+match_block_trailing_comma = true
+max_width = 70
+use_field_init_shorthand = true

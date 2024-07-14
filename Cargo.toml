@@ -1,0 +1,27 @@
+[package]
+name = "inventor_bot"
+version = "0.1.0"
+description = """A fedi bot for posts in the format of 'I can't believe
+__ invented __'."""
+repository = "https://github.com/KaitlynEthylia/InventorBot"
+authors = ["Kaitlyn~Ethylia <kaitlyyn.ethylia@proton.me>"]
+edition = "2021"
+license-file = "LICENSE"
+
+[dependencies]
+reqwest = { version = "0.12.5", features = ["blocking", "stream"] }
+serde = { version = "1.0.203" , features = ["derive"] }
+rand = "0.8.5"
+serde_qs = "0.13.0"
+serde_json = "1.0.117"
+pgp = "0.13.0"
+toml = "0.8.14"
+log = { version = "0.4.21", features = ["serde", "max_level_info"] }
+simplelog = "0.12.2"
+dirs = "5.0.1"
+clap = { version = "4.5.7", features = ["derive", "env", "string"] }
+open = "5.1.4"
+anyhow = "1.0.86"
+httparse = "1.9.4"
+rpassword = "7.3.1"
+ctrlc = "3.4.4"
