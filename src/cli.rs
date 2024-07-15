@@ -10,7 +10,7 @@ use simplelog::{
 
 macro_rules! env_prefix {
 	($lit:literal) => {
-		concat!("INVENTOR_BOT", $lit)
+		concat!("INVENTOR_BOT_", $lit)
 	};
 }
 
@@ -27,7 +27,7 @@ pub struct Command {
 	pub config: PathBuf,
 
 	#[arg(
-		short = 'h', long,
+		long,
 		env = env_prefix!("CACHE_DIR"),
 		value_name = "FILE",
 		help = "Override the default cache directory path.",

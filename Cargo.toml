@@ -1,6 +1,6 @@
 [package]
 name = "inventor_bot"
-version = "0.1.0"
+version = "1.0.0"
 description = """A fedi bot for posts in the format of 'I can't believe
 __ invented __'."""
 repository = "https://github.com/KaitlynEthylia/InventorBot"
