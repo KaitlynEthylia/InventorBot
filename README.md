@@ -54,7 +54,7 @@ are provided to modify how the bot runs:
 **-c, --config \<FILE>**: Override the default config file path.
 <br />
 
-**-h, --cache \<DIR>**: Override the default cache directory path,
+**--cache \<DIR>**: Override the default cache directory path,
 ignoring any value set in the config.
 <br/ >
 
